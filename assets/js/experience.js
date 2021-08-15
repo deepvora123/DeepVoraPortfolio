@@ -62,38 +62,38 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Community Of Coders, VJTI",
+    cardImage: "assets/images/experience-page/coc.png",
     description:
       "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Chief External Affair Officer, Technovanza 2020-21",
+    cardImage: "assets/images/experience-page/technovanza.jpg",
     description:
       "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Google Developer Student Club, VJTI",
+    cardImage: "assets/images/experience-page/gdp.png",
     description:
       "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
+    title: "Jain Youth Forum",
+    cardImage: "assets/images/experience-page/jyf.png",
     description:
       "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
   },
   {
-    title: "30 DaysofFlutter",
-    cardImage: "assets/images/experience-page/5.jpg",
+    title: "Josh Talks, Mumbai Coordinator",
+    cardImage: "assets/images/experience-page/josh_talks.jpg",
     description:
       "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
   },
   {
-    title: "Garuda Hacks",
-    cardImage: "assets/images/experience-page/6.jpg",
+    title: "Entrepreneurship Cell, VJTI",
+    cardImage: "assets/images/experience-page/ecell_vjti.png",
     description:
       "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
   },
@@ -125,14 +125,14 @@ document.addEventListener("DOMContentLoaded", showCards);
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
-    title: "HakinCode",
-    image: "assets/images/experience-page/hakin.png",
+    title: "Community Of Coders",
+    image: "assets/images/experience-page/coc.png",
     time: "06/2020 - 08/2020",
     desp: "<li>It is an open source community where students and mentors can apply.</li><hr /><li>Ample amount of technologies and projects are there and we are given opportunity to work on them according to our interest and knowledge.</li>",
   },
   {
-    title: "Google Summer of Code",
-    image: "assets/images/experience-page/gsoc.png",
+    title: "Story Of Makers",
+    image: "assets/images/experience-page/story_of_makers.png",
     time: "03/2020 - 08/2020",
     desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
   },
