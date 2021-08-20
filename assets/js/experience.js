@@ -8,21 +8,21 @@ const exp = [
     cardImage: "assets/images/experience-page/alpha_alternatives.jpg",
     place: "Alpha Alternatives",
     time: "(June, 2021 - July, 2021)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Worked with a strategist, tabulated his idea using Python, and pitched it to the stakeholders.</li> <li>Helped the company collect raw market depth data via APIs and convert it into CSVs that could be used further for trading.</li> ",
   },
   {
     title: "Chief Project Manager",
     cardImage: "assets/images/experience-page/story_of_makers.png",
     place: "Story Of Makers",
     time: "(Mar, 2019 - July, 2021)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    desp: "<li>Assisted more than 15 young makers to ideate, make, and exhibit their dream projects.</li><li>Helped developed their website using WordPress.</li>",
   },
   {
     title: "Research Intern",
     cardImage: "assets/images/experience-page/magnes_motors.png",
     place: "Magnes Motors",
     time: "(Jan - March, 21)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp:"<li>Determined the Battery State-of-Charge of Electric Vehicles using Arduino coding.</li><li>Created a sample PCB model that determines the same.</li>",
   },
 ];
 
@@ -65,37 +65,37 @@ const volunteershipcards = [
     title: "Community Of Coders, VJTI",
     cardImage: "assets/images/experience-page/coc.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Helped my juniors by mentoring their projects and teaching programming languages via workshops.",
   },
   {
-    title: "Chief External Affair Officer, Technovanza 2020-21",
+    title: "Chief EAO, Technovanza 2020-21",
     cardImage: "assets/images/experience-page/technovanza.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Raised funds by approaching 25 corporate and business executives for our annual Tech-fest.",
   },
   {
     title: "Google Developer Student Club, VJTI",
     cardImage: "assets/images/experience-page/gdp.png",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Actively participated in 30DaysOfCloud workshop and helped peers resolve their doubts.",
   },
   {
     title: "Jain Youth Forum",
     cardImage: "assets/images/experience-page/jyf.png",
     description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Conducted and administered workshops, visits and seminars related to management and Jain philosophy.",
   },
   {
     title: "Josh Talks, Mumbai Coordinator",
     cardImage: "assets/images/experience-page/josh_talks.jpg",
     description:
-      "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
+      "Organized 2 shoots for the company’s YouTube channel that impacts a million people.",
   },
   {
     title: "Entrepreneurship Cell, VJTI",
     cardImage: "assets/images/experience-page/ecell_vjti.png",
     description:
-      "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
+      "Organized the Ecell - Startup netcon, 2020.",
   },
 ];
 
@@ -134,7 +134,7 @@ const mentor = [
     title: "Story Of Makers",
     image: "assets/images/experience-page/story_of_makers.png",
     time: "03/2020 - 08/2020",
-    desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
+    desp: "<li>Story Of Makers organizes Biyearly Tech fest where creators from all round the world come and display their science projects.</li><hr /><li>It is a great platform to explore new projects and ideas. </li>",
   },
 ];
 
