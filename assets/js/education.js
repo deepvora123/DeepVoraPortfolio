@@ -10,9 +10,9 @@ const moocscards = [
     moocLink: "https://www.coursera.org/browse/data-science",
   },
   {
-    title: "Cryptography",
+    title: "Practical Python",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.udemy.com/topic/python/",
   },
   {
     title: "Machine Learning",
@@ -55,14 +55,34 @@ const moocscards = [
     moocLink: "https://www.coursera.org/learn/server-side-nodejs",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+    title: "Neural Networks and Deep Learning",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/neural-networks-deep-learning/",
   },
   {
     title: "Data Structures & Algorithms",
     cardImage: "assets/images/education-page/udacity_logo.png",
     moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+  },
+  {
+    title: "Python for Everybody",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/neural-networks-deep-learning/",
+  },
+  {
+    title: "Plotting and Data Representation in Python",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/neural-networks-deep-learning/",
+  },
+  {
+    title: "Applied Machine Learning in Python",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/neural-networks-deep-learning/",
+  },
+  {
+    title: "SQL for Data Science",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink: "https://www.coursera.org/learn/neural-networks-deep-learning/",
   },
 ];
 

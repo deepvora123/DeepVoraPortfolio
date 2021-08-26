@@ -18,7 +18,7 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
@@ -277,3 +277,60 @@ $(document).ready(function(){
       }
   );
 });
+
+/*
+//consistent dark mode for page change
+if (localStorage.getItem("lightMode") == "dark") {
+  var app = document.getElementsByTagName("HTML")[0];
+  app.setAttribute("light-mode", "dark");
+  //to add dark theme to nav bar after its been loaded
+  window.addEventListener("load", function () {
+    var nav = document.getElementById("navbar");
+    nav.classList.add("dark-theme");
+    document.getElementById("dark_toggler").checked = true;
+  });
+
+  var sc = document.getElementsByClassName("socialicon");
+  for (var i = 0; i < sc.length; i++) {
+    sc[i].classList.add("dsc");
+  }
+} else {
+  localStorage.setItem("lightMode", "light");
+}
+function toggle_light_mode() {
+  console.log(localStorage.getItem("lightMode"));
+  var app = document.getElementsByTagName("HTML")[0];
+  var nav = document.getElementById("navbar");
+  if (localStorage.lightMode == "dark") {
+    localStorage.lightMode = "light";
+    app.setAttribute("light-mode", "light");
+    nav.classList.remove("dark-theme");
+    var sc = document.getElementsByClassName("socialicon");
+    for (var i = 0; i < sc.length; i++) {
+      sc[i].classList.remove("dsc");
+    }
+  } else {
+    nav.classList.add("dark-theme");
+    localStorage.lightMode = "dark";
+    app.setAttribute("light-mode", "dark");
+    var sc = document.getElementsByClassName("socialicon");
+    for (var i = 0; i < sc.length; i++) {
+      sc[i].classList.add("dsc");
+    }
+  }
+}
+window.addEventListener("storage", function () {
+  if (localStorage.lightMode == "dark") {
+    app.setAttribute("light-mode", "dark");
+  } else {
+    app.setAttribute("light-mode", "light");
+  }
+});
+// Function to remove scroll bar during preload
+$(window).on("load", function () {
+  setTimeout(function () {
+    $(".no-scroll-preload").css("overflow", "visible");
+  }, 1000);
+  $(".loader-container").fadeOut(2500);
+});
+*/
